@@ -1,0 +1,40 @@
+body * {
+    display: border-box;
+    color: white;
+    font-family: exo;
+}
+html {
+    background-color: black;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.tetris {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.aboutMe { 
+    background-color: pink;
+}
+.myProjects {
+    background-color: palegreen;
+}
+.contactMe {
+    background-color: powderblue; 
+}
+.vertical {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: dashed white;
+}
