@@ -6,35 +6,93 @@ body * {
 html {
     background-color: black;
 }
-
 .hero {
     display: block;
     width: 100%;
     height: 300px;
     text-align: center;
+    color: white;
 }
-.tetris {
+h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    width: 100%;
+}
+main {
+        height: 90vh;
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
+
+
+div.green { 
+    background: linear-gradient(green, palegreen);
+    border: outset 15px palegreen;
+    opacity: 0;
+}
+div.pink {
+    background: linear-gradient(magenta, pink);
+    border: outset 15px magenta;
+    opacity: 0;
+}
+div.blue {
+    background: linear-gradient(blue, lightblue); 
+    border: outset 15px blue;
+    opacity: 0;
+}
+div.yellow {
+    background: linear-gradient(yellow,white); 
+    border: outset 15px yellow;  
+    opacity: 0;
+}
+
+
+nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    margin: auto;
 }
-.aboutMe { 
-    background-color: pink;
+
+nav .aboutMe:hover {
+    color: green;
+    font-size: 15px;
 }
-.myProjects {
-    background-color: palegreen;
+nav .myProjects:hover {
+    color: blue;
+    font-size: 15px;
 }
-.contactMe {
-    background-color: powderblue; 
-}
-.vertical {
-    color: black;
-    text-align: center;
+nav .contactMe:hover {
+    color:magenta;
+    font-size: 15px;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    border-top: dashed white;
+    display: fixed; 
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo {
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+/* @media screen and(min-width 700ps){
+    .container {
+        height: 90vh;
+        width: smaller normally go to - 500px
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
 }
