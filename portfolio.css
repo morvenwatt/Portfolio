@@ -63,15 +63,15 @@ nav {
 
 nav .aboutMe:hover {
     color: green;
-    font-size: 15px;
+    font-size: 25px;
 }
 nav .myProjects:hover {
     color: blue;
-    font-size: 15px;
+    font-size: 25px;
 }
 nav .contactMe:hover {
     color:magenta;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 footer {

@@ -1,17 +1,16 @@
 //FUNCTIONAL FUNCTIONS:
 
 const descriptors = ["Zombies?", "Dogs?", "Queen?", "Tetris?", "Yoga?", "Chocolate?", "Language?", "Serial Killer Trivia?", "Puzzles?", "Coding?", "Ultras?", "Books?", "Spyro?", "Sherlock Holmes?", "Stationery?"];
-const colours = ["green", "pink", "blue"];
-let count = 0;
+let count = 1;
 
 function rotateHeroDescriptors() {
     setInterval(function () {
-        $("span.descriptors").fadeOut(400, function () {
-            $(this).html(descriptors[count]).css("color", colours[count]);
+        $("#rotationText").fadeOut(400, function () {
+            $(this).html(descriptors[count]);
             count++;
             if (count == descriptors.length)
                 count = 0;
-            $(this).fadeIn(400);
+            $("#rotationText").fadeIn(400);
         });
     }, 2000);
 }
@@ -52,15 +51,15 @@ function generateTetrisGrid() {
 
 function generateHero() {
     return `
-    <header class="hero" role="heading">
-        <h1>Do you want someone obsessed with ${rotateHeroDescriptors()} 
+
+        <h1>Do you want someone obsessed with <span id="rotationText">...</span> 
              Good. You found her. </h1>
     <nav>
     <a class="aboutMe">About Me</a>
     <a class="myProjects">My Projects</a>
     <a class="contactMe">Contact Me</a>
     </nav>
-    </header>
+    
     `
 }
 
@@ -78,7 +77,8 @@ function generateAboutMePage() {
         <li>MA in Creative Writing, Goldsmiths College London (2012)</li>
         <li>BA in English Language & Literature, Newcastle University (2009)</li>
         <li>Yoga Teaching Certification (500 Hour E-RYT)</li>
-        <li>Oh look, a shameless plug to <a href="amazonlink">my book</a> too!</li>
+        <li>Oh look, a shameless plug to <a href="https://www.amazon.com/Curses-Come-Home-stories-Century/dp/186151879X/ref=sr_1_2?keywords=curses+come+home+morven+watt&qid=1563821054&s=gateway&sr=8-2">
+        my book</a> too!</li>
     </ol>
 
     <p>I’m a full stack developer on a mission to learn as much as I can, 
@@ -109,7 +109,8 @@ function generateAboutMePage() {
 function generateContactMePage() {
     return `
     <h2>Contact Me!</h2>
-    <p> You can offer me a job, or just tell me your apocalypse theories. </p>
+    <p> You can offer me a job, or just tell me your apocalypse theories.
+    I'm pretty happy with either one. </p>
     
     <ul>
         <li><a href="mailto:morvenwatt@gmail.com">Email Me</a></li>
