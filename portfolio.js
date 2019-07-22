@@ -1,6 +1,6 @@
 //FUNCTIONAL FUNCTIONS:
 
-const descriptors = ["Zombies?", "Dogs?", "Queen?", "Tetris?", "Yoga?", "Chocolate?", "Language?", "Serial Killer Trivia?", "Puzzles?", "Coding?", "Ultras?", "Books?", "Spyro?", "Sherlock Holmes?", "Stationery?"];
+const descriptors = ["zombies?", "dogs?", "Queen?", "Tetris?", "Yoga?", "chocolate?", "language?", "Jeopardy?", "puzzles?", "coding?", "ultras?", "books?", "Spyro?", "Sherlock?", "stationery?", "MTB?"];
 let count = 1;
 
 function rotateHeroDescriptors() {
@@ -52,7 +52,7 @@ function generateTetrisGrid() {
 function generateHero() {
     return `
 
-        <h1>Do you want someone obsessed with <span id="rotationText">...</span> 
+        <h1>Do you want someone obsessed with <span id="rotationText">.....</span> 
              Good. You found her. </h1>
     <nav>
     <a class="aboutMe">About Me</a>
@@ -72,18 +72,21 @@ function generateAboutMePage() {
     <p>I figured this would be a good place to put my money where 
     my mouth is and show off my certifications.</p>
 
-    <ol>
+    <ul>
+    <img src="tinified/cchcover.jpg" alt="Book Cover Image" id="bookcover">
         <li>Full Stack Engineering Program, <a href="thinkful">Thinkful</a>(2019)</li>
         <li>MA in Creative Writing, Goldsmiths College London (2012)</li>
-        <li>BA in English Language & Literature, Newcastle University (2009)</li>
+        <li>BA in English Lit & Lang, Newcastle University (2009)</li>
         <li>Yoga Teaching Certification (500 Hour E-RYT)</li>
         <li>Oh look, a shameless plug to <a href="https://www.amazon.com/Curses-Come-Home-stories-Century/dp/186151879X/ref=sr_1_2?keywords=curses+come+home+morven+watt&qid=1563821054&s=gateway&sr=8-2">
         my book</a> too!</li>
-    </ol>
+       
+    </ul>
+ 
 
     <p>I’m a full stack developer on a mission to learn as much as I can, 
     in as many languages (programming & spoken) as I can. 
-    I can speak: English, French, <img src="tinified/html5.png" class="icon" alt="html5 Logo">, CSS, <img src="tinified/javascript-logo.png" class="icon" alt="Javascript logo"> .  
+    I can speak: English, French, HTML, CSS, Javascript.> .  
     I am learning: Japanese, German & Swedish. Ruby, Java & C++. </p>
 
 
@@ -91,6 +94,7 @@ function generateAboutMePage() {
     problem-solving , original fairy-tales, writing, and fitness. 
     So, if you’re looking for someone who can code 
     AND teach the office Yoga then look no further. </p>
+    <img src="tinified/yoga.png" alt="Someone who isn't me doing Yoga" id="yoga">
 
     <h3> Some Super-Secret Skills I also happen to have...</h3>
     <ol>
@@ -101,8 +105,6 @@ function generateAboutMePage() {
         <li>I'm a total planner-nerd. Chore-Whore-Anonymous meetings could be held at my house.</li>
     </ol>
 
-    <img src="tinified/cchcover.jpg" alt="Book Cover Image">
-    <img src="tinified/yoga.png" alt="Someone who isn't me doing Yoga">
     `
 }
 
@@ -112,11 +114,12 @@ function generateContactMePage() {
     <p> You can offer me a job, or just tell me your apocalypse theories.
     I'm pretty happy with either one. </p>
     
+    <h3><a href="mailto:morvenwatt@gmail.com">Email</a> is the best way to get in touch!</h3>
+
     <ul>
-        <li><a href="mailto:morvenwatt@gmail.com">Email Me</a></li>
-        <li><a href="LinkedIn"><img src="tinified/linkedIn.png" alt="linked in logo" class="icon"></a></li>
-        <li><a href="GitHub"><img src="tinified/github.png" alt="github logo" class="icon"></a></li>
-        <li><a href="Instagram"><img src="tinified/instagramlogo.png" alt="instagram logo" class="icon"></a></li>
+        <li><a href="https://www.linkedin.com/in/morven-watt-204455186/" target="_blank"><img src="tinified/linkedIn.png" alt="linked in logo" class="icon"></a></li>
+        <li><a href="https://github.com/morvenwatt" target="_blank"><img src="tinified/github.png" alt="github logo" class="icon"></a></li>
+        <li><a href="https://www.instagram.com/morvenwatt13/?hl=en" target="_blank"><img src="tinified/instagramlogo.png" alt="instagram logo" class="icon"></a></li>
     </ul>
     `
 }
@@ -133,11 +136,11 @@ function generateMyProjectsPage() {
 <p> Link to live app: <a href="https://morvenwatt.github.io/dogs/" target="_blank">Pup Quiz</a></p>
 <p> Link to repo: <a href="https://github.com/morvenwatt/dogs" target="_blank">GitHub</a></p>
 
-<p> Languages used: <img src="tinified/html5.png" class="icon" alt="html5 Logo">, CSS, <img src="tinified/javascript-logo.png" class="icon" alt="Javascript logo"> & JQUERY.</p>
+<p> Languages used: HTML5, CSS, Javascript & JQuery.</p>
 
-<img src="tinified/pupQuiz1.png" alt="screenshot of quiz">
-<img src="tinified/pupQuiz2.png" alt="screenshot of quiz">
-<img src="tinified/pupQuiz3.png" alt="screenshot of quiz">
+<img src="tinified/pupQuiz1.png" alt="screenshot of quiz" class="quiz">
+<img src="tinified/pupQuiz2.png" alt="screenshot of quiz" class="quiz">
+<img src="tinified/pupQuiz3.png" alt="screenshot of quiz" class="quiz">
 `
 }
 
@@ -168,17 +171,17 @@ function displayMyProjectsPage() {
 //EVENT HANDLERS:
 
 function handleAboutMeLink() {
-    $('main').on('click', 'a.aboutMe', function (event) {
+    $('.aboutMe').click (function (event) {
         displayAboutMePage();
     })
 }
 function handleMyProjectsLink() {
-    $('main').on('click', 'a.myProjects', function (event) {
+    $('.myProjects').click (function (event) {
         displayMyProjectsPage();
     })
 }
 function handleContactMeLink() {
-    $('main').on('click', 'a.contactMe', function (event) {
+    $('.contactMe').click (function (event) {
         displayContactMePage();
     })
 }

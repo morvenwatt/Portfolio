@@ -6,6 +6,7 @@ body * {
 html {
     background-color: black;
 }
+/* HEADER */
 .hero {
     display: block;
     width: 100%;
@@ -17,7 +18,25 @@ h1 {
     font-size: 35px;
     letter-spacing: 3px;
     width: 100%;
+    margin-bottom: 10px;
 }
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    margin: auto;
+}
+header.hero {
+    height: 250px;
+}
+
+
+/* TETRIS GRID */
 main {
         height: 90vh;
         margin: 2rem;
@@ -25,8 +44,6 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
       }
-
-
 div.green { 
     background: linear-gradient(green, palegreen);
     border: outset 15px palegreen;
@@ -48,51 +65,95 @@ div.yellow {
     opacity: 0;
 }
 
-
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    color: white;
-    font-size: 20px;
-    border: 2px solid white;
-    margin: auto;
-}
-
-nav .aboutMe:hover {
-    color: green;
-    font-size: 25px;
-}
-nav .myProjects:hover {
-    color: blue;
-    font-size: 25px;
-}
-nav .contactMe:hover {
-    color:magenta;
-    font-size: 25px;
-}
-
 footer {
     display: fixed; 
     text-align: center;
     padding-top: 10px;
+    border-top: 1px solid white;
+    margin-top: 10px;
 }
 
-.logo {
-    border-radius: 25px;
-    height: 20px;
-    width: 20px;
+/* ABOUT ME PAGE */
+.aboutMe {
+    display: inline-block;
+    font-size: 20px;
+}
+.aboutMe ul {
+    padding: 0px;
+    list-style-type: none;
+}
+.aboutMe h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: black;
+    background: linear-gradient(palegreen, white);
+    border: outset 15px palegreen;
+}
+#headshot {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+}
+#bookcover {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+#yoga {
+    float: right;
+    height: 150px;
+    width: 150px;
 }
 
-/* @media screen and(min-width 700ps){
-    .container {
-        height: 90vh;
-        width: smaller normally go to - 500px
-        margin: 2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-      }
+
+/* PROJECTS PAGE */
+.myProjects {
+    display: inline-block;
+    font-size: 20px;
 }
+.myProjects h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: black;
+    background: linear-gradient(lightblue, white);
+    border: outset 15px lightblue;
+}
+.quiz {
+    width: 30%;
+    height: 350px;
+}
+
+/* CONTACT PAGE */
+.contactMe {
+    display: inline-block;
+}
+.contactMe h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: black;
+    background: linear-gradient(pink, white);
+    border: outset 15px pink;
+}
+.contactMe ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.contactMe h3{
+    text-align: center;
+}
+.icon {
+    height: 80px;
+    width: 80px;
+}
+
+
+
