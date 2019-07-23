@@ -49,6 +49,18 @@ a:hover {
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 1000px){
+    nav {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+}
 
 /* TETRIS GRID */
 main {
@@ -70,6 +82,10 @@ main {
   @media screen and (min-width: 880px){
     main {
     height: 110vh;
+  }}
+  @media screen and (min-width: 1000px){
+    main {
+    height: 130vh;
   }}
 
 div.green { 
@@ -128,6 +144,7 @@ footer {
     border-radius: 50%;
     width: 100px;
     float: right;
+    margin-left: 2px;
 }
 #bookcover {
     height: 100px;
@@ -162,6 +179,13 @@ footer {
         height: 150px;
         width: 150px;
     }  
+}
+@media screen and (min-width: 1000px){
+    #headshot {
+        border-radius: 50%;
+        width: 150px;
+        float: right;
+    }
 }
 
 /* PROJECTS PAGE */
@@ -209,9 +233,17 @@ footer {
         height: 350px;
     } 
 }
+@media screen and (min-width: 1000px){
+    .quiz {
+        height: 450px;
+    } 
+}
 
 
 /* CONTACT PAGE */
+main .contactMe {
+    width: 100%;
+}
 .contactMe {
     display: inline-block;
     font-size: 20px;

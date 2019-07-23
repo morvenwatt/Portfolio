@@ -68,12 +68,12 @@ function generateAboutMePage() {
     return `
     <h2>Scottish Or Bust</h2>
     <p>I'm Morven. A native Scot living in Scottsdale.</p>
-    <img src="tinified/headshot.jpg" id="headshot" alt="picture of my numpty self">
+    <img src="tinified/headshot.png" id="headshot" alt="picture of me">
     <p>I figured this would be a good place to put my money where 
     my mouth is and show off my certifications.</p>
 
     <ul>
-    <img src="tinified/cchcover.jpg" alt="Book Cover Image" id="bookcover">
+    <img src="tinified/cchcover.png" alt="Book Cover Image" id="bookcover">
         <li>Full Stack Engineering Program, <a href="thinkful">Thinkful</a>(2019).</li>
         <li>MA in Creative Writing, Goldsmiths College London (2012).</li>
         <li>BA in English Lit & Lang, Newcastle University (2009).</li>
