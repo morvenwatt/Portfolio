@@ -30,20 +30,48 @@ nav {
     font-size: 20px;
     border: 2px solid white;
     margin: auto;
+    margin-top: 15px;
 }
 header.hero {
     height: 250px;
 }
+a:hover {
+    color: magenta;
+}
 
+@media screen and (min-width: 880px){
+    nav {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+}
 
 /* TETRIS GRID */
 main {
-        height: 90vh;
-        margin: 2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-      }
+    height: 50vh;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+@media screen and (min-width: 468px){
+    main {
+    height: 90vh;
+  }}
+  @media screen and (min-width: 710px){
+    main {
+    height: 100vh;
+  }}
+  @media screen and (min-width: 880px){
+    main {
+    height: 110vh;
+  }}
+
 div.green { 
     background: linear-gradient(green, palegreen);
     border: outset 15px palegreen;
@@ -78,17 +106,23 @@ footer {
     display: inline-block;
     font-size: 20px;
 }
+.aboutMe p, .aboutMe li {
+    font-size: 15px;
+}
 .aboutMe ul {
     padding: 0px;
     list-style-type: none;
 }
 .aboutMe h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0px;
     color: black;
     background: linear-gradient(palegreen, white);
     border: outset 15px palegreen;
+}
+.aboutMe h3 {
+    text-decoration: underline;
 }
 #headshot {
     border-radius: 50%;
@@ -96,26 +130,52 @@ footer {
     float: right;
 }
 #bookcover {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 #yoga {
     float: right;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
 }
 
+@media screen and (min-width: 468px){
+    .aboutMe {
+        font-size: 20px;
+    }
+    .aboutMe h2 {
+        font-size: 40px;
+    }
+    .aboutMe p, .aboutMe li {
+        font-size: 20px;
+    }
+    #bookcover {
+        height: 150px;
+        width: 150px;
+    }
+    #yoga {
+        float: right;
+        height: 150px;
+        width: 150px;
+    }  
+}
 
 /* PROJECTS PAGE */
+
 .myProjects {
     display: inline-block;
     font-size: 20px;
 }
+.myProjects p {
+    font-size: 15px;
+}
 .myProjects h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0px;
     color: black;
     background: linear-gradient(lightblue, white);
@@ -123,12 +183,38 @@ footer {
 }
 .quiz {
     width: 30%;
-    height: 350px;
+    height: 160px;
 }
+.quizPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 468px){
+.myProjects h2 {
+    font-size: 40px;
+}
+.myProjects p {
+    font-size: 20px;
+}
+.quiz {
+    width: 30%;
+    height: 250px;
+} 
+}
+@media screen and (min-width: 710px){
+    .quiz {
+        height: 350px;
+    } 
+}
+
 
 /* CONTACT PAGE */
 .contactMe {
     display: inline-block;
+    font-size: 20px;
 }
 .contactMe h2 {
     text-align: center;

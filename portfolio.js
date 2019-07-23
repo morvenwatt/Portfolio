@@ -1,6 +1,6 @@
 //FUNCTIONAL FUNCTIONS:
 
-const descriptors = ["zombies?", "dogs?", "Queen?", "Tetris?", "Yoga?", "chocolate?", "language?", "Jeopardy?", "puzzles?", "coding?", "ultras?", "books?", "Spyro?", "Sherlock?", "stationery?", "MTB?"];
+const descriptors = ["zombies.", "dogs.", "Queen.", "Tetris.", "Yoga.", "chocolate.", "language.", "Jeopardy.", "puzzles.", "coding.", "ultras.", "books.", "Spyro.", "Sherlock.", "Javascript.", "stationery.", "MTB.", "travel."];
 let count = 1;
 
 function rotateHeroDescriptors() {
@@ -52,8 +52,8 @@ function generateTetrisGrid() {
 function generateHero() {
     return `
 
-        <h1>Do you want someone obsessed with <span id="rotationText">.....</span> 
-             Good. You found her. </h1>
+        <h1>Hey! I'm Mo, and I'm really into <span id="rotationText">.....</span> 
+             </h1>
     <nav>
     <a class="aboutMe">About Me</a>
     <a class="myProjects">My Projects</a>
@@ -67,26 +67,26 @@ function generateHero() {
 function generateAboutMePage() {
     return `
     <h2>Scottish Or Bust</h2>
-    <p>Hey! I'm Morven. A native Scot living in Scottsdale.</p>
+    <p>I'm Morven. A native Scot living in Scottsdale.</p>
     <img src="tinified/headshot.jpg" id="headshot" alt="picture of my numpty self">
     <p>I figured this would be a good place to put my money where 
     my mouth is and show off my certifications.</p>
 
     <ul>
     <img src="tinified/cchcover.jpg" alt="Book Cover Image" id="bookcover">
-        <li>Full Stack Engineering Program, <a href="thinkful">Thinkful</a>(2019)</li>
-        <li>MA in Creative Writing, Goldsmiths College London (2012)</li>
-        <li>BA in English Lit & Lang, Newcastle University (2009)</li>
-        <li>Yoga Teaching Certification (500 Hour E-RYT)</li>
-        <li>Oh look, a shameless plug to <a href="https://www.amazon.com/Curses-Come-Home-stories-Century/dp/186151879X/ref=sr_1_2?keywords=curses+come+home+morven+watt&qid=1563821054&s=gateway&sr=8-2">
-        my book</a> too!</li>
+        <li>Full Stack Engineering Program, <a href="thinkful">Thinkful</a>(2019).</li>
+        <li>MA in Creative Writing, Goldsmiths College London (2012).</li>
+        <li>BA in English Lit & Lang, Newcastle University (2009).</li>
+        <li>Yoga Teaching Certification (500 Hour E-RYT).</li>
+        <li>And look, a shameless plug to <a href="https://www.amazon.com/Curses-Come-Home-stories-Century/dp/186151879X/ref=sr_1_2?keywords=curses+come+home+morven+watt&qid=1563821054&s=gateway&sr=8-2" target="_blank">
+        my book</a>!</li>
        
     </ul>
  
 
     <p>I’m a full stack developer on a mission to learn as much as I can, 
-    in as many languages (programming & spoken) as I can. 
-    I can speak: English, French, HTML, CSS, Javascript.> .  
+    in as many languages (programming & spoken) as I can. </p>
+    <p>I can speak: English, French, HTML, CSS & Javascript.  
     I am learning: Japanese, German & Swedish. Ruby, Java & C++. </p>
 
 
@@ -96,14 +96,14 @@ function generateAboutMePage() {
     AND teach the office Yoga then look no further. </p>
     <img src="tinified/yoga.png" alt="Someone who isn't me doing Yoga" id="yoga">
 
-    <h3> Some Super-Secret Skills I also happen to have...</h3>
-    <ol>
+    <h3>Additional 007 Skillset:</h3>
+    <ul>
         <li>Like a parrot, I can mimic a ton of accents really well!</li>
         <li>I make incredible vegan/paleo Nutella bites.</li>
         <li>I do have a plan for the Zombie Apocalypse. Obviously.</li>
         <li>I'm great at coming up with scathing comebacks thirty minutes to twenty-four hours after you need them.</li>
         <li>I'm a total planner-nerd. Chore-Whore-Anonymous meetings could be held at my house.</li>
-    </ol>
+    </ul>
 
     `
 }
@@ -138,9 +138,13 @@ function generateMyProjectsPage() {
 
 <p> Languages used: HTML5, CSS, Javascript & JQuery.</p>
 
+<div class="quizPics">
 <img src="tinified/pupQuiz1.png" alt="screenshot of quiz" class="quiz">
 <img src="tinified/pupQuiz2.png" alt="screenshot of quiz" class="quiz">
 <img src="tinified/pupQuiz3.png" alt="screenshot of quiz" class="quiz">
+</div>
+
+<p> Stay tuned for more exciting projects to come! </p>
 `
 }
 
