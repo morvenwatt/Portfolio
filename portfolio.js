@@ -110,7 +110,7 @@ function generateAboutMePage() {
 
 function generateContactMePage() {
     return `
-    <h2>Contact Me!</h2>
+    <h2>Contact Me</h2>
     <p> You can offer me a job, or just tell me your apocalypse theories.
     I'm pretty happy with either one. </p>
     

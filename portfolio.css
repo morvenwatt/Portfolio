@@ -241,7 +241,7 @@ footer {
 
 
 /* CONTACT PAGE */
-main .contactMe {
+main.contactMe{
     width: 100%;
 }
 .contactMe {
