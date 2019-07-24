@@ -137,9 +137,7 @@ footer {
     background: linear-gradient(palegreen, white);
     border: outset 15px palegreen;
 }
-.aboutMe h3 {
-    text-decoration: underline;
-}
+
 #headshot {
     border-radius: 50%;
     width: 100px;
@@ -206,14 +204,25 @@ footer {
     border: outset 15px lightblue;
 }
 .quiz {
-    width: 30%;
-    height: 160px;
+    width: 270px;
+    height: 370px;
+    margin-bottom: 5px;
 }
+.quizPics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 468px){
 .quizPics {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+}
 }
 
 @media screen and (min-width: 468px){
@@ -272,6 +281,10 @@ main.contactMe{
     height: 80px;
     width: 80px;
 }
-
-
+.linkedin {
+    width: 115px;
+}
+.github {
+    background-color: white;
+}
 

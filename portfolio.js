@@ -69,6 +69,12 @@ function generateAboutMePage() {
     <h2>Scottish Or Bust</h2>
     <p>I'm Morven. A native Scot living in Scottsdale.</p>
     <img src="tinified/headshot.png" id="headshot" alt="picture of me">
+    
+    <p>I’m a full stack developer on a mission to learn as much as I can, 
+    in as many languages (programming & spoken) as I can. </p>
+    <p>I can speak: English, French, HTML, CSS & Javascript.  
+    I am learning: Japanese, German & Swedish. Ruby, Java & C++. </p>
+    
     <p>I figured this would be a good place to put my money where 
     my mouth is and show off my certifications.</p>
 
@@ -83,13 +89,6 @@ function generateAboutMePage() {
        
     </ul>
  
-
-    <p>I’m a full stack developer on a mission to learn as much as I can, 
-    in as many languages (programming & spoken) as I can. </p>
-    <p>I can speak: English, French, HTML, CSS & Javascript.  
-    I am learning: Japanese, German & Swedish. Ruby, Java & C++. </p>
-
-
     <p> I love language structure, development & origins, 
     problem-solving , original fairy-tales, writing, and fitness. 
     So, if you’re looking for someone who can code 
@@ -117,8 +116,8 @@ function generateContactMePage() {
     <h3><a href="mailto:morvenwatt@gmail.com">Email</a> is the best way to get in touch!</h3>
 
     <ul>
-        <li><a href="https://www.linkedin.com/in/morven-watt-204455186/" target="_blank"><img src="tinified/linkedIn.png" alt="linked in logo" class="icon"></a></li>
-        <li><a href="https://github.com/morvenwatt" target="_blank"><img src="tinified/github.png" alt="github logo" class="icon"></a></li>
+        <li><a href="https://www.linkedin.com/in/morven-watt-204455186/" target="_blank"><img src="tinified/linkedIn.png" alt="linked in logo" class="icon linkedin"></a></li>
+        <li><a href="https://github.com/morvenwatt" target="_blank"><img src="tinified/github.png" alt="github logo" class="icon github"></a></li>
         <li><a href="https://www.instagram.com/morvenwatt13/?hl=en" target="_blank"><img src="tinified/instagramlogo.png" alt="instagram logo" class="icon"></a></li>
     </ul>
     `
