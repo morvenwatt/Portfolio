@@ -285,13 +285,11 @@ main.contactMe{
     text-align: center;
 }
 .icon {
-    height: 70px;
-    width: 70px;
-}
-.linkedin {
-    width: 150px;
+    height: 80px;
+    width: 80px;
 }
 .github {
     background-color: white;
+    border-radius: 15%;
 }
 

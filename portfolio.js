@@ -116,9 +116,9 @@ function generateContactMePage() {
     <h3><a href="mailto:morvenwatt@gmail.com">Email</a> is the best way to get in touch!</h3>
 
     <ul>
-        <li><a href="https://www.linkedin.com/in/morven-watt-204455186/" target="_blank"><img src="tinified/linkedIn.png" alt="linked in logo" class="icon linkedin"></a></li>
+        <li><a href="https://www.linkedin.com/in/morven-watt-204455186/" target="_blank"><img src="tinified/linkeinSquare.png" alt="linked in logo" class="icon linkedin"></a></li>
         <li><a href="https://github.com/morvenwatt" target="_blank"><img src="tinified/github.png" alt="github logo" class="icon github"></a></li>
-        <li><a href="https://www.instagram.com/morvenwatt13/?hl=en" target="_blank"><img src="tinified/instagramlogo.png" alt="instagram logo" class="icon"></a></li>
+        <li><a href="https://www.instagram.com/morvenwatt13/?hl=en" target="_blank"><img src="tinified/instagramlogo.png" alt="instagram logo" class="icon instagram"></a></li>
     </ul>
     `
 }
