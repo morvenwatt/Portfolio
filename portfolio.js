@@ -143,6 +143,20 @@ function generateMyProjectsPage() {
 <img src="tinified/pupQuiz3.png" alt="screenshot of quiz" class="quiz">
 </div>
 
+<h3>Brontosaurus</h3>
+<p>Brontosaurus is an app aimed at parents and anyone trying to eat a more plant based diet. 
+The goal of the app is to provide parents and users an immediate snapshot of what a fruit or vegetable 
+contains in terms of nutrition info, as well as recipes that include or focus on that item. 
+It also provides useful information on both eating a plant based diet, and baby led weaning.</p>
+
+<p> Link to live app: <a href="https://morvenwatt.github.io/Brontosaurus/" target="_blank">Brontosaurus</a></p>
+<p> Link to repo: <a href="https://github.com/morvenwatt/Brontosaurus" target="_blank">GitHub</a></p>
+
+<div class="brontoPics">
+<img src="brontoShots/brontoSceenshotHome.png" alt="screenshot of Brontosaurus" class="bronto">
+<img src="brontoShots/brontoScreenshotGrid.png" alt="screenshot of Brontosaurus" class="bronto">
+<img src="brontoShots/brontoSceenshotInfo.png" alt="screenshot of Brontosaurus" class="bronto">
+
 <p> Stay tuned for more exciting projects to come! </p>
 `
 }

@@ -203,12 +203,12 @@ footer {
     background: linear-gradient(lightblue, white);
     border: outset 15px lightblue;
 }
-.quiz {
+.quiz, .bronto {
     width: 270px;
     height: 370px;
     margin-bottom: 5px;
 }
-.quizPics {
+.quizPics, .brontoPics {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +217,7 @@ footer {
 }
 
 @media screen and (min-width: 468px){
-.quizPics {
+.quizPics, .brontoPics {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -232,18 +232,18 @@ footer {
 .myProjects p {
     font-size: 20px;
 }
-.quiz {
+.quiz, .bronto {
     width: 30%;
     height: 250px;
 } 
 }
 @media screen and (min-width: 710px){
-    .quiz {
+    .quiz, .bronto {
         height: 350px;
     } 
 }
 @media screen and (min-width: 1000px){
-    .quiz {
+    .quiz, .bronto {
         height: 450px;
     } 
 }
