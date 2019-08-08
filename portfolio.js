@@ -155,7 +155,7 @@ It also provides useful information on both eating a plant based diet, and baby 
 <div class="brontoPics">
 <img src="brontoShots/brontoSceenshotHome.png" alt="screenshot of Brontosaurus" class="bronto">
 <img src="brontoShots/brontoScreenshotGrid.png" alt="screenshot of Brontosaurus" class="bronto">
-<img src="brontoShots/brontoSceenshotInfo.png" alt="screenshot of Brontosaurus" class="bronto">
+<img src="brontoShots/brontoScreenshotInfo.png" alt="screenshot of Brontosaurus" class="bronto">
 </div>
 
 <p> Stay tuned for more exciting projects to come! </p>
