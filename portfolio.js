@@ -158,6 +158,8 @@ It also provides useful information on both eating a plant based diet, and baby 
 <img src="brontoShots/brontoScreenshotInfo.png" alt="screenshot of Brontosaurus" class="bronto">
 </div>
 
+<p> Languages used: HTML5, CSS, Javascript & JQuery.</p>
+
 <p> Stay tuned for more exciting projects to come! </p>
 `
 }
