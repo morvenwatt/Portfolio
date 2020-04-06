@@ -139,7 +139,6 @@ footer {
 }
 
 #headshot {
-  /* border radius: 50%; */
     width: 100px;
     height: 100px;
     float: right;
@@ -181,7 +180,6 @@ footer {
 }
 @media screen and (min-width: 1000px){
     #headshot {
-        border-radius: 50%;
         width: 150px;
         float: right;
     }
