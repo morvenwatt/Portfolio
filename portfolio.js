@@ -73,8 +73,17 @@ function generateAboutMePage() {
     <p>I’m a full stack developer on a mission to learn as much as I can, 
     in as many languages (programming & spoken) as I can. </p>
     <p>I can speak: English, French, HTML, CSS & Javascript.  
-    I am learning: Japanese, German & Swedish. Ruby, Java & C++. </p>
-    
+    I am learning: Japanese and ASL. Ruby, Java & C++. </p>
+
+    <p> I am an author and freelance copywriter, and you can check out more of my work 
+    <a href="https://morvenwatt.wixsite.com/mysite-1">here</a></p>
+
+    <p>When I'm not writing, coding, or running around the desert, I love to paint and hang out with
+    my daughter. I started a small company, Homunculus Press, that creates children's books by pairing watercolor artwork
+    with classic poetry in the public domain. I also create posters for parents themed around language learning, healthy eating, exercise and yoga.
+    You can check out the site <a href="https://www.homunculuspress.com">here.</a></p>
+    <p> You can also see some examples of my copy on the blog, as well as some of the social media posts on the facebook and instagram pages. </p>
+
     <p>I figured this would be a good place to put my money where 
     my mouth is and show off my certifications.</p>
 
