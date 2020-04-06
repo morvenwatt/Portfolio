@@ -68,7 +68,7 @@ function generateAboutMePage() {
     return `
     <h2>Scottish Or Bust</h2>
     <p>I'm Morven. A native Scot living in Scottsdale.</p>
-    <img src="tinified/headshot.png" id="headshot" alt="picture of me">
+    <img src="tinified/momo.jpg" id="headshot" alt="picture of me">
     
     <p>I’m a full stack developer on a mission to learn as much as I can, 
     in as many languages (programming & spoken) as I can. </p>
